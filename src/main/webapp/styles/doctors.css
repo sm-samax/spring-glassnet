@@ -1,0 +1,37 @@
+.stack-container {
+  display: grid;
+  row-gap: var(--element-gap);
+  grid-template-columns: auto;
+}
+
+.stack-element {
+  background-color: rgb(246, 245, 245);
+  box-shadow: var(--shadow);
+  border-radius: 30px;
+  padding: 2vw;
+  display: inline-flex;
+  column-gap: 2vw;
+}
+
+.stack-element img {
+  box-shadow: var(--stronger-shadow);
+  max-width: 16vw;
+  max-height: 16vw;
+}
+
+.vertical-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 40%;
+  justify-content: space-evenly;
+}
+
+.viewable-btn {
+  background-color: var(--contrast-color);
+  color: white;
+  padding: 1vw;
+  font-size: 16pt;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}

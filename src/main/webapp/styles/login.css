@@ -1,0 +1,80 @@
+.horizontal-container {
+  padding-left: 2vw;
+  padding-top: 5vw;
+  padding-right: 1vw;
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-evenly;
+}
+
+.vertical-container {
+  padding-top: 3.5vw;
+  display: flex;
+  flex-direction: column;
+  row-gap: 3.5vw;
+  justify-content: flex-start;
+}
+
+.login-form {
+  padding: 3vw;
+  max-width: 30%;
+  border: 2px solid var(--contrast-color);
+  border-radius: 30px;
+  background-color: rgb(246, 245, 245);
+  box-shadow: var(--stronger-shadow);
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  row-gap: 2vw;
+}
+
+.login-form * {
+  padding: 0.5vw;
+  border-radius: 30px;
+}
+
+.login-form h2 {
+  text-align: center;
+  font-size: 24pt;
+  letter-spacing: 1pt;
+  background-color: white;
+  box-shadow: var(--shadow);
+}
+
+.login-form input {
+  border: 1px solid var(--contrast-color);
+  box-shadow: var(--shadow);
+  padding-left: 1.2vw;
+  font-size: 12pt;
+}
+
+.blue-btn {
+  text-decoration: none;
+  text-align: center;
+  padding: 1vw;
+  border: none;
+  border-radius: 30px;
+  box-shadow: var(--shadow);
+  font-size: 18pt;
+  background-color: var(--contrast-color);
+  color: white;
+  cursor: pointer;
+  border: 1px solid var(--contrast-color);
+}
+
+.blue-btn:hover {
+  background-color: rgb(246, 245, 245);
+  color: var(--contrast-color);
+}
+
+.login-form input[type="submit"] {
+  background-color: var(--contrast-color);
+  color: rgb(246, 245, 245);
+  cursor: pointer;
+}
+
+.login-form input[type="submit"]:hover {
+  background-color: rgb(246, 245, 245);
+  color: var(--contrast-color);
+}
